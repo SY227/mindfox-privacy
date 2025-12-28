@@ -81,6 +81,8 @@ MindFox shares data only in these situations:
 1) **AI processing:** text is sent to Google Gemini when you request AI output (and may be retained by Google as described above).
 2) **Speech recognition:** speech-to-text is handled by Apple’s Speech framework (processing may be on-device or by Apple depending on configuration).
 
+**Third-party protections:** When MindFox uses Apple Speech Recognition or Google Gemini to process your request, those providers handle data under their own privacy and security policies, and we use these services only to deliver the requested app functionality.
+
 MindFox does **not** sell your data. MindFox does **not** share data with advertisers. MindFox does **not** perform cross-app tracking.
 
 ---
@@ -93,28 +95,26 @@ MindFox does **not** sell your data. MindFox does **not** share data with advert
 - **Deleting the App:** Removing the App from your device removes locally stored data in the App sandbox.
 
 ### Third-party retention (Apple / Google)
-- **Google Gemini:** may retain prompts/context/output for up to **55 days** for abuse monitoring (see links above).
-- **Apple Speech:** speech recognition may be processed on-device or by Apple depending on device settings. For Apple’s disclosure about Siri/Dictation processing and retention, see:
-  - https://www.apple.com/legal/privacy/data/en/ask-siri-dictation/
-  - https://www.apple.com/legal/privacy/data/en/improve-siri-dictation/
+**Third parties:** Text sent to Apple (speech recognition) or Google (Gemini) may be processed and temporarily retained according to their respective policies. MindFox cannot directly delete data stored by those providers; you should refer to their policies for retention and deletion options.
+
+For Apple disclosures about speech-related processing and retention, see:
+- https://www.apple.com/legal/privacy/data/en/ask-siri-dictation/
+- https://www.apple.com/legal/privacy/data/en/improve-siri-dictation/
+
+For Google disclosures related to Gemini processing/retention, see:
+- https://ai.google.dev/gemini-api/docs/usage-policies
+- https://ai.google.dev/gemini-api/docs/logs-policy
+- https://policies.google.com/privacy
 
 ---
 
-## Revoke consent & request deletion
+## Your choices
 
-### Revoke consent (stop off-device processing)
-You can stop off-device AI processing at any time by:
-- **Not using** AI-triggering actions (**Capture**, **Re-run AI**, **Generate Digest**).
-- Using **typing** without voice capture (voice is optional).
-- Disabling permissions in iOS Settings:
+- **Revoke consent:** You can stop AI processing at any time by not using **Capture / Re-run AI / Generate Digest**.
+- **Delete your data:** You can delete notes and digests in-app at any time. Deleting the App removes locally stored data from your device.
+- **Permissions:** You can disable permissions in iOS Settings at any time:
   - **Settings → Privacy & Security → Microphone** (turn off for MindFox)
   - **Settings → Privacy & Security → Speech Recognition** (turn off for MindFox)
-
-### Request deletion
-- **MindFox can delete on-device data**: delete notes/digests in the App, or delete the App to remove local storage.
-- **Third-party deletion requests**: MindFox cannot directly delete data that Apple or Google may retain as part of speech recognition or AI processing. Requests are governed by their policies:
-  - Apple: https://www.apple.com/legal/privacy/
-  - Google: https://policies.google.com/privacy
 
 ---
 
